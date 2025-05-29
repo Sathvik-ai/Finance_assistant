@@ -17,3 +17,4 @@ streamlit-chat
 spacy-transformers
 pydub
 pip>=24.0
+sounddevice
