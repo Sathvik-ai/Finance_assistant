@@ -22,3 +22,4 @@ streamlit-extras
 streamlit-plotly-events
 streamlit-option-menu
 streamlit-webrtc
+soundfile
