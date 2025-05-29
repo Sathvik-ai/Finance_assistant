@@ -16,11 +16,9 @@ streamlit-aggrid
 streamlit-chat
 spacy-transformers
 pydub
-pip>=24.0
-sounddevice
-# Additional dependencies for specific functionalities
 streamlit-ace
 streamlit-lottie
 streamlit-extras
 streamlit-plotly-events
 streamlit-option-menu
+streamlit_audio_recorder
