@@ -26,3 +26,6 @@ streamlit-plotly-events
 streamlit-option-menu
 pip>=24.0
 streamlit-webrtc
+soundfile
+av
+requests-html
