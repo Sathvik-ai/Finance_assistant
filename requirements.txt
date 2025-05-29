@@ -18,7 +18,7 @@ spacy-transformers
 pydub
 pip>=24.0
 sounddevice
-PortAudio
+pyaudio
 # Additional dependencies for specific functionalities
 streamlit-ace
 streamlit-lottie
