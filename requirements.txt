@@ -9,7 +9,7 @@ whisper
 pyttsx3
 requests
 beautifulsoup4
-spacy
+spacy-alignments==0.9.0
 pandas
 numpy
 streamlit-aggrid
