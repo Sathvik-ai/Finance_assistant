@@ -43,7 +43,6 @@ webrtc_ctx = webrtc_streamer(
     key="audio-recorder",
     mode="sendrecv",
     audio_receiver_size=1024,
-    video_frame_callback=None,
     media_stream_constraints={"audio": True, "video": False},
     audio_processor_factory=AudioProcessor,
     async_processing=True,
