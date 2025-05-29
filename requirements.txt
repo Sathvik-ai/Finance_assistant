@@ -21,4 +21,4 @@ streamlit-lottie
 streamlit-extras
 streamlit-plotly-events
 streamlit-option-menu
-streamlit_audio_recorder
+streamlit-webrtc
