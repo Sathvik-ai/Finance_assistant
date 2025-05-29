@@ -9,18 +9,19 @@ whisper
 pyttsx3
 requests
 beautifulsoup4
+spacy>=3.5.0,<3.6.0
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
 spacy-alignments==0.9.0
 pandas
-numpy
+numpy>=1.24.0,<1.26.0
 streamlit-aggrid
 streamlit-chat
 spacy-transformers
 pydub
+sounddevice
 streamlit-ace
 streamlit-lottie
 streamlit-extras
 streamlit-plotly-events
 streamlit-option-menu
-streamlit-webrtc
-soundfile
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+pip>=24.0
