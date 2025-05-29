@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.env.*
+
+# FastAPI + LangChain + HuggingFace
+.cache/
+logs/
+*.log
+index/
+news_index/
+
+# System
+.DS_Store
+*.swp
+*.bak
+
+# Jupyter / Streamlit
+.ipynb_checkpoints
+*.db
+output.mp3
+*.sqlite
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Models
+*.bin
+*.pt
