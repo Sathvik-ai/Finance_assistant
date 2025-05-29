@@ -14,12 +14,12 @@ import soundfile as sf
 st.set_page_config(page_title="Finance Assistant", layout="centered")
 st.title("🎙️ Voice-Driven Market Brief Assistant")
 
-def install_spacy_model():
-    model_name = "en_core_web_sm"
-    if importlib.util.find_spec(model_name) is None:
-        subprocess.run(["python", "-m", "spacy", "download", model_name])
+# def install_spacy_model():
+#     model_name = "en_core_web_sm"
+#     if importlib.util.find_spec(model_name) is None:
+#         subprocess.run(["python", "-m", "spacy", "download", model_name])
 
-install_spacy_model()
+# install_spacy_model()
 nlp = spacy.load("en_core_web_sm")
 
 st.markdown("### 🎧 Upload `.wav` or `.mp3` **or record your question using your microphone**")
