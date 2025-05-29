@@ -10,7 +10,6 @@ pyttsx3
 requests
 beautifulsoup4
 spacy
-spacy-model-en_core_web_sm
 pandas
 numpy
 streamlit-aggrid
